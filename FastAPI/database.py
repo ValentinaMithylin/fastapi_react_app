@@ -1,5 +1,5 @@
 from sqlalchemy import create_engine
-from sqlalchemy import sessionmaker
+from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
 URL_DATABASE = 'sqlite:///./finance.db'
